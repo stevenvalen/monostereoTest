@@ -7274,8 +7274,8 @@ a.text-dark:hover, a.text-dark:focus {
       line-height: 1.8;
       font-weight: 300;
       color: gray;
-      background: url(../images/bg_4.jpg) no-repeat fixed;
-      background-size: cover;
+      background: url(../images/bg_4.jpg) repeat;
+      background-size: auto;
       background-position: center;
     }
     
@@ -7957,14 +7957,14 @@ h1, h2, h3, h4, h5,
       font-size: 18px; }
       .pricing-entry .text h3 span {
         background: #121618;
-        background: url(../images/bg_4.jpg) no-repeat fixed;
+        background: url(../images/bg_4.jpg) repeat;
         padding-right: 20px; }
     .pricing-entry .text .price {
       width: 80px;
       color: #fac564;
       text-align: right;
       background: #121618;
-      background: url(../images/bg_4.jpg) no-repeat fixed;
+      background: url(../images/bg_4.jpg) repeat;
       font-size: 16px; }
 
 @media (max-width: 991.98px) {

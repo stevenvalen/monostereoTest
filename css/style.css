@@ -7297,7 +7297,7 @@ a.text-dark:hover, a.text-dark:focus {
     /* Media query for very small screens */
     @media (max-width: 480px) {
       body {
-        background-size: cover; /* Ensure it covers the view */
+        background-size: auto; /* Ensure it covers the view */
         background-position: center top; /* Further adjust position for key focus */
       }
     }

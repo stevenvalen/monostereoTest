@@ -7278,30 +7278,6 @@ a.text-dark:hover, a.text-dark:focus {
       background-size: auto;
       background-position: center;
     }
-    
-    body.menu-show {
-      overflow: hidden;
-      position: fixed;
-      height: 100%;
-      width: 100%;
-    }
-    
-    /* Media query for mobile screens */
-    @media (max-width: 768px) {
-      body {
-        background-size: auto; /* Prevents the background from scaling down */
-        background-position: top center; /* Adjust position to show the top part */
-      }
-    }
-    
-    /* Media query for very small screens */
-    @media (max-width: 480px) {
-      body {
-        background-size: auto; /* Ensure it covers the view */
-        background-position: center top; /* Further adjust position for key focus */
-      }
-    }
-    
 
 span {
   color: #bfbfbf; }

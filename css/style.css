@@ -7267,20 +7267,41 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
 
-body {
-  font-family: "Poppins", Arial, sans-serif;
-  background: #121618;
-  font-size: 15px;
-  line-height: 1.8;
-  font-weight: 300;
-  color: gray;
-  background: url(../images/bg_4.jpg) no-repeat fixed;
-  background-size: cover; }
-  body.menu-show {
-    overflow: hidden;
-    position: fixed;
-    height: 100%;
-    width: 100%; }
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      background: #121618;
+      font-size: 15px;
+      line-height: 1.8;
+      font-weight: 300;
+      color: gray;
+      background: url(../images/bg_4.jpg) no-repeat fixed;
+      background-size: cover;
+      background-position: center;
+    }
+    
+    body.menu-show {
+      overflow: hidden;
+      position: fixed;
+      height: 100%;
+      width: 100%;
+    }
+    
+    /* Media query for mobile screens */
+    @media (max-width: 768px) {
+      body {
+        background-size: auto; /* Prevents the background from scaling down */
+        background-position: top center; /* Adjust position to show the top part */
+      }
+    }
+    
+    /* Media query for very small screens */
+    @media (max-width: 480px) {
+      body {
+        background-size: cover; /* Ensure it covers the view */
+        background-position: center top; /* Further adjust position for key focus */
+      }
+    }
+    
 
 span {
   color: #bfbfbf; }
@@ -7518,7 +7539,7 @@ h1, h2, h3, h4, h5,
     right: -25px; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 750px;
+    height: 300px;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
